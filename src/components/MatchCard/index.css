@@ -1,0 +1,65 @@
+/* Write your CSS here */
+.march-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  align-self: center;
+  padding: 10px;
+  background-color: #0f172a;
+  border-radius: 5px;
+  width: 200px;
+  height: 300px;
+  margin-bottom: 40px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.match-team-logo {
+  width: 60px;
+  height: 70px;
+}
+.m-team-name {
+  font-family: 'Bree Serif';
+  font-weight: 500;
+  font-size: 15px;
+  color: white;
+  text-align: center;
+}
+.Lost {
+  font-family: 'Bree Serif';
+  font-weight: 500;
+  font-size: 15px;
+  color: #e31a1a;
+}
+.Won {
+  font-family: 'Bree Serif';
+  font-weight: 500;
+  font-size: 15px;
+  color: #18ed66;
+}
+.date1 {
+  font-family: 'Bree Serif';
+  font-weight: 500;
+  font-size: 17px;
+  color: white;
+  margin: 0px;
+  text-align: center;
+}
+@media (max-width: 555px) {
+  .m-team-name {
+    font-size: 10px;
+  }
+  .march-card-container {
+    width: 120px;
+    height: 200px;
+  }
+  .date1 {
+    font-size: 10px;
+  }
+  .Won {
+    font-size: 10px;
+  }
+  .Lost {
+    font-size: 10px;
+  }
+}

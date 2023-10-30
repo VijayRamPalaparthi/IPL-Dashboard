@@ -1,0 +1,78 @@
+/* Write your CSS here */
+.latest-match-card {
+  width: 100%;
+  display: flex;
+  padding: 15px;
+  background-color: #0f172a;
+  border-radius: 5px;
+  justify-content: space-between;
+}
+.card-part {
+  display: flex;
+  flex-direction: column;
+}
+.c-team-name {
+  font-family: 'Bree Serif';
+  font-weight: 500;
+  font-size: 20px;
+  color: white;
+}
+.common-heading2 {
+  font-family: 'Bree Serif';
+  font-weight: 500;
+  font-size: 10px;
+  color: white;
+  margin-bottom: 5px;
+  margin-top: 4px;
+  text-align: right;
+}
+.common-heading1 {
+  font-family: 'Bree Serif';
+  font-weight: 500;
+  font-size: 15px;
+  color: white;
+  margin-bottom: 5px;
+  text-align: right;
+  margin-top: 4px;
+}
+.c-team-logo {
+  width: 150px;
+  height: 150px;
+  align-self: center;
+}
+.date {
+  font-family: 'Bree Serif';
+  font-weight: 500;
+  font-size: 17px;
+  color: white;
+}
+.card-part {
+  width: 40%;
+}
+@media (max-width: 555px) {
+  .latest-match-card {
+    flex-direction: ;
+  }
+  .c-team-logo {
+    width: 100px;
+    height: 100px;
+  }
+  .c-team-name {
+    font-size: 12px;
+    margin-top: 2px;
+  }
+  .date {
+    font-size: 10px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+  .common-heading1 {
+    font-size: 10px;
+  }
+  .common-heading2 {
+    font-size: 7px;
+  }
+  .card-part {
+    align-self: center;
+  }
+}
